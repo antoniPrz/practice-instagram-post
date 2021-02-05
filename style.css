@@ -13,14 +13,40 @@ body{
 
 .post-header{
     height: 50px;
-    background: orange;
+    /* background: orange; */
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
-.icon-header-rigth{
-    /* float: left; */
+
+.icon-header-ri , .icon-header-left{
+    margin: 5px;
 }
+
+.icon-header-ri{
+  display: flex;  /* float: left; */
+}
+.i-h-r-t{
+    /* background: green; */
+    margin: 5px;
+}
+.i-h-r-t p{
+
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+}
+
+#titulo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+#name{
+   font-family: sans-serif;
+    
+}
+
 .post-image{
     /* background-color: hotpink; */
     height: 300px;
@@ -46,6 +72,13 @@ body{
  
 /* iconos  */
  
+.icon-header-ri{
+    font-size: 30px;
+    /* margin: 10px; */
+
+}
+
+
 .derecha , .izq{
 margin: 10px;
 
@@ -75,6 +108,7 @@ margin: 10px;
 .post-content-title p{
     margin: 0;
     padding: 10px;
+    font-size: 14px;
 
 }
 
@@ -86,5 +120,17 @@ margin: 10px;
 
 .post-content-text p{
     margin: 0;
-    padding: 10px;
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+.post-content-title p , .post-content-text p {
+
+    font-family: sans-serif;
+}
+
+#hashtag{
+    font-size: 13px;
+    margin-top: 10px;
+    color: blue;
 }
