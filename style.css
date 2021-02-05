@@ -1,0 +1,90 @@
+body{
+    background-color:black;
+}
+
+.post{
+    height: 600px;
+    width: 400px;
+    background: white;
+    margin: auto;
+    margin-bottom: 40px;
+
+}
+
+.post-header{
+    height: 50px;
+    background: orange;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon-header-rigth{
+    /* float: left; */
+}
+.post-image{
+    /* background-color: hotpink; */
+    height: 300px;
+    margin: 0;
+
+}
+.post-content{
+    margin: 0px;
+    padding: 0px;
+    
+
+}
+
+.post-content-icons{
+    height: 50px;
+    /* background-color: blue; */
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+ 
+/* iconos  */
+ 
+.derecha , .izq{
+margin: 10px;
+
+}
+
+.derecha i{
+    margin: 3px;
+}
+
+
+.derecha i , .izq i{
+    font-size: 25px;
+    /* margin: 10px; */
+
+}
+
+.fa-heart{
+    font-size: 35px;
+}
+
+.post-content-title{
+    height: 50px;
+    /* background: green; */
+    margin: 0px;
+    padding: 0px;
+}
+.post-content-title p{
+    margin: 0;
+    padding: 10px;
+
+}
+
+.post-content-text{
+    height: 100%;
+    /* background: yellow; */
+
+}
+
+.post-content-text p{
+    margin: 0;
+    padding: 10px;
+}
